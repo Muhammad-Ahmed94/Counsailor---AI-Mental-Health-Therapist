@@ -1,5 +1,33 @@
 @import "tailwindcss";
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  a {
+    /* color: inherit; */
+    /* text-decoration: none; */
+  }
+
+  button {
+    /* cursor: pointer; */
+    /* border: none; */
+  }
+}
+
 @theme {
   --color-button: #1D4ED8;
+}
+
+@layer components {
+  .align-center {
+    @apply justify-center items-center;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col justify-center items-center;
+  }
 }
