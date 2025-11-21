@@ -1,9 +1,11 @@
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+
 const App = () => {
   return (
-    <>
-    <div className='text-2xl text-gray-500 '>COUNSAILOR</div>
-    <div className='text-5xl text-red-600'>AI POWERED MENTAL ASSINSSTANCE</div>
-    </>
+    <Routes>
+      <Route path="/" element = { <Home /> }/>
+    </Routes>
   )
 }
 
