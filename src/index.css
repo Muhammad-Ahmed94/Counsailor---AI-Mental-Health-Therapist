@@ -5,6 +5,9 @@
     scroll-behavior: smooth;
   }
 
+  body {
+    color: #1A1A1A;
+  }
   a {
     /* color: inherit; */
     /* text-decoration: none; */
@@ -17,7 +20,11 @@
 }
 
 @theme {
-  --color-button: #1D4ED8;
+  --color-orange-primary: #EC744A;
+
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #777777;
+
 }
 
 @layer components {
@@ -29,5 +36,9 @@
   }
   .flex-col-center {
     @apply flex flex-col justify-center items-center;
+  }
+
+  .btn {
+    @apply cursor-pointer rounded-full bg-orange-primary text-[#FCF8F4] px-4 py-2;
   }
 }
