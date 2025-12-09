@@ -1,36 +1,35 @@
 const Navbar = () => {
-    const navItems = ["Home", "About", "Services", "Pricing"];
+    const navItems = ["Home", "About", "Services", "Page"];
 
   return (
-    <header>
-        <nav className="flex flex-col justify-center gap-2">
-            <div className="flex justify-between items-center mt-4 mx-8">
-                {/* LOGO */}
-                <div className="flex items-center gap-2">
-                    <button id="#">
-                        <img src="/logo.svg" alt="logo-image" height={32} width={32}/>
-                    </button>
-                    <h1 className="text-3xl font-semibold tracking-wide">Counsailor</h1>
+    <header className="py-6">
+        <nav className="container-custom flex justify-between items-center">
+            {/* LOGO */}
+            <div className="flex items-center gap-2">
+                <div className="text-green-primary">
+                     {/* Using a simple SVG icon for the logo as implied by the design or just the text if image fails */}
+                     <img src="/logo.svg" alt="Mindfulcare Logo" className="w-8 h-8" /> 
                 </div>
-                {/* NAV-ITEMS */}
-                <div className="flex-center gap-4">
-                    {navItems.map((item) => (
-                        <a 
-                        key={item} 
-                        href={`#${item.toLowerCase()}`}
-                        className=""
-                        >
-                            {item}
-                        </a>
-                    ))}
-                </div>
-                    {/* ONBOARDING-BUTTON */}
-                <div>
-                    <button className="btn">Get started</button>
-                </div>
+                <h1 className="text-2xl font-bold text-text-primary tracking-tight">Counsailor</h1>
             </div>
-            <div></div>
 
+            {/* NAV-ITEMS */}
+            <div className="hidden md:flex items-center gap-8">
+                {navItems.map((item) => (
+                    <a 
+                    key={item} 
+                    href={`#${item.toLowerCase()}`}
+                    className="text-text-primary hover:text-orange-primary font-medium transition-colors"
+                    >
+                        {item}
+                    </a>
+                ))}
+            </div>
+
+            {/* Getting started button */}
+            <div>
+                <button className="btn">Get started</button>
+            </div>
         </nav>
     </header>
   )
