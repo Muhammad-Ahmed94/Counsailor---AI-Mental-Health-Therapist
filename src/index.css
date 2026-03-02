@@ -15,7 +15,10 @@
 @theme {
   --color-orange-primary: #EC744A;
   --color-green-primary: #1F4D36; /* Dark green from design */
+  --color-green-dark: #153728;
+  --color-green-light: #2D7A56;
   --color-bg-primary: #FCF8F4;
+  --color-bg-secondary: #F5F0EB;
 
   --color-text-primary: #1A1A1A;
   --color-text-secondary: #777777;
@@ -35,8 +38,20 @@
   .btn {
     @apply cursor-pointer rounded-full bg-orange-primary text-white font-medium px-6 py-3 hover:opacity-90 transition-opacity;
   }
+
+  .btn-outline {
+    @apply cursor-pointer rounded-full border-2 border-green-primary text-green-primary font-medium px-6 py-3 hover:bg-green-primary hover:text-white transition-all;
+  }
   
   .container-custom {
     @apply max-w-7xl mx-auto px-6 md:px-12;
+  }
+
+  .section-title {
+    @apply text-sm font-semibold uppercase tracking-widest text-orange-primary;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-text-primary;
   }
 }
