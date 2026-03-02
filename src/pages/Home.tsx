@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 
 const Home = () => {
+
     return (
         <div className="min-h-screen w-full">
             <Navbar />
@@ -19,18 +20,13 @@ const Home = () => {
                         <div className="pt-2">
                             <button className="btn text-lg px-8 py-3">Get started</button>
                         </div>
-
-                        {/* Partner Logos */}
-                        <div className="pt-12 md:pt-16">
-                            <img src="/logos.png" alt="Partner Logos" className="h-8 md:h-10 object-contain opacity-60 grayscale hover:grayscale-0 transition-all duration-300" />
-                        </div>
                     </div>
 
                     {/* Right Image */}
                     <div className="relative flex justify-center md:justify-end">
                          {/* Decorative background circle/blob can be added here if needed, but keeping it clean for now */}
                         <img 
-                            src="/hero-image.png" 
+                            src="/hero.png" 
                             alt="Mental Health Consultancy Illustration" 
                             className="w-full max-w-lg md:max-w-full object-contain drop-shadow-sm transform hover:scale-105 transition-transform duration-500" 
                         />
