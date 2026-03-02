@@ -15,42 +15,42 @@ const services = [
     icon: MessageCircle,
     title: "Anxiety & Stress Support",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Our AI counselor helps you manage anxiety through evidence-based techniques and calming conversations.",
+      "Break free from the cycle of worry. Our AI counselor uses proven techniques like deep breathing, grounding, and cognitive reframing to help you find calm.",
     color: "from-green-primary to-green-light",
   },
   {
     icon: Brain,
     title: "Cognitive Behavioral Therapy",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Guided CBT exercises to help you identify and change negative thought patterns and behaviors.",
+      "Challenge the thoughts that hold you back. Guided CBT exercises help you identify negative patterns and replace them with healthier perspectives.",
     color: "from-orange-primary to-[#f5956e]",
   },
   {
     icon: HeartHandshake,
     title: "Relationship Guidance",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Navigate relationship complexities with compassionate AI-powered advice and support.",
+      "Whether it's family, friends, or partners — navigate relationship challenges with compassionate guidance and actionable communication strategies.",
     color: "from-green-primary to-green-light",
   },
   {
     icon: Sparkles,
     title: "Mindfulness & Meditation",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Guided meditation and mindfulness exercises tailored to your emotional state and needs.",
+      "Quiet the noise. Personalized meditation and mindfulness exercises tailored to how you're feeling right now — not a one-size-fits-all script.",
     color: "from-orange-primary to-[#f5956e]",
   },
   {
     icon: ShieldCheck,
     title: "Crisis Support",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Immediate compassionate support during difficult moments with professional resource referrals.",
+      "When things feel overwhelming, we're here. Get immediate compassionate support and, when needed, direct referrals to professional crisis resources.",
     color: "from-green-primary to-green-light",
   },
   {
     icon: TreePine,
     title: "Personal Growth",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Build resilience, self-awareness, and emotional intelligence through guided conversations.",
+      "Become the best version of yourself. Build resilience, sharpen self-awareness, and develop emotional intelligence through meaningful conversations.",
     color: "from-orange-primary to-[#f5956e]",
   },
 ];
@@ -61,7 +61,7 @@ const Services = () => {
       <Navbar />
       <PageHeader
         title="Services"
-        description="Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris. Ultrices aliquet at quam adipiscing feugiat interdum mattis."
+        description="From anxiety relief to personal growth, Counsailor offers AI-powered mental health support designed to meet you exactly where you are."
       />
 
       {/* Services Grid */}
@@ -163,8 +163,7 @@ const Services = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur. Take the first step towards
-            a healthier, happier mind today.
+            No waiting lists. No judgment. Just a safe, private conversation that could change everything. Take the first step right now.
           </p>
           <button className="btn text-lg px-10 py-4 shadow-lg hover:shadow-xl transition-shadow">
             Get Started — It's Free

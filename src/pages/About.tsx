@@ -15,37 +15,37 @@ const features = [
     icon: Brain,
     title: "AI-Powered Insight",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Advanced AI understanding of mental health patterns and therapeutic techniques.",
+      "Powered by advanced AI trained on therapeutic frameworks, Counsailor understands your emotions and responds with clinically-informed guidance.",
   },
   {
     icon: Shield,
     title: "Safe & Confidential",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Your conversations are private and encrypted end-to-end.",
+      "Every conversation is encrypted end-to-end. Your thoughts stay between you and Counsailor — no judgments, no data sharing, ever.",
   },
   {
     icon: Clock,
     title: "Available 24/7",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Get support whenever you need it, day or night, no appointments needed.",
+      "Mental health doesn't wait for office hours. Get compassionate support at 3 AM or 3 PM — no appointments, no waiting rooms.",
   },
   {
     icon: Lock,
     title: "Privacy First",
     description:
-      "Lorem ipsum dolor sit amet consectetur. We never share your data. Your mental health journey stays yours.",
+      "Your data is never sold, shared, or used for ads. We believe your mental health journey is deeply personal — and it stays that way.",
   },
   {
     icon: Heart,
     title: "Empathetic Approach",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Designed with empathy at its core for a supportive experience.",
+      "Built with genuine empathy at its core. Counsailor listens without bias and responds with warmth, patience, and understanding.",
   },
   {
     icon: MessagesSquare,
     title: "Natural Conversations",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Chat naturally like you would with a real therapist.",
+      "No awkward menus or rigid scripts. Just type what's on your mind and have a flowing, natural conversation like you would with a real therapist.",
   },
 ];
 
@@ -62,7 +62,7 @@ const About = () => {
       <Navbar />
       <PageHeader
         title="About Us"
-        description="Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris. Ultrices aliquet at quam adipiscing feugiat interdum mattis."
+        description="We believe everyone deserves access to quality mental health support. Counsailor bridges the gap between needing help and getting it — instantly."
       />
 
       {/* Our Mission Section */}
@@ -88,15 +88,10 @@ const About = () => {
                 Discover the Faces Behind Our Mental Health Consultancy
               </h2>
               <p className="text-text-secondary text-base md:text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur. Convallis est urna
-                adipiscing fringilla nulla diam lorem non mauris. Ultrices
-                aliquet at quam adipiscing feugiat interdum mattis. Placerat
-                donec risus diam sed et. A in ullamcorper ipsum.
+                Counsailor was born from a simple truth: millions of people struggle silently because therapy feels inaccessible, expensive, or intimidating. We built an AI companion that breaks down those barriers — offering professional-grade mental health support that's available to everyone.
               </p>
               <p className="text-text-secondary text-base md:text-lg leading-relaxed">
-                Lorem ipsum dolor sit amet consectetur. Vestibulum ante ipsum
-                primis in faucibus orci luctus et ultrices posuere cubilia curae.
-                Sed dignissim lacinia nunc.
+                Our mission is to make mental wellness as normal as physical fitness. No stigma, no barriers — just a safe space to heal, grow, and thrive.
               </p>
               <button className="btn w-fit mt-2">Learn More</button>
             </div>

@@ -78,19 +78,19 @@ const plans: PricingPlan[] = [
 const faqs = [
   {
     q: "Can I switch plans at any time?",
-    a: "Lorem ipsum dolor sit amet consectetur. Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately.",
+    a: "Absolutely. Upgrade, downgrade, or switch plans anytime from your dashboard. Changes take effect immediately — no hidden fees, no hassle.",
   },
   {
     q: "Is my data secure and private?",
-    a: "Lorem ipsum dolor sit amet consectetur. We use end-to-end encryption and never share your data with third parties.",
+    a: "Your privacy is non-negotiable. We use end-to-end encryption, store nothing on external servers, and never share your data with anyone — period.",
   },
   {
     q: "What if I need to cancel?",
-    a: "Lorem ipsum dolor sit amet consectetur. You can cancel your subscription at any time with no hidden fees or penalties.",
+    a: "Cancel anytime with one click — no penalties, no guilt trips, no fine print. We hope you stay, but we'll never lock you in.",
   },
   {
     q: "Does the AI replace a real therapist?",
-    a: "Lorem ipsum dolor sit amet consectetur. Our AI is a supplement, not a replacement. We provide referrals to licensed professionals when needed.",
+    a: "Counsailor is a powerful supplement, not a replacement. For clinical diagnoses or severe conditions, we provide direct referrals to licensed professionals.",
   },
 ];
 
@@ -100,7 +100,7 @@ const Pricing = () => {
       <Navbar />
       <PageHeader
         title="Pricing"
-        description="Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris. Ultrices aliquet at quam adipiscing feugiat interdum mattis."
+        description="Transparent pricing, no surprises. Start free and upgrade when you're ready — your mental health journey shouldn't break the bank."
       />
 
       {/* Pricing Cards */}

@@ -15,7 +15,7 @@ const Home = () => {
                             <span className="text-orange-primary">Mental Health</span> Consultancy
                         </h1>
                         <p className="text-text-secondary text-lg md:text-xl leading-relaxed max-w-lg">
-                            Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris. Ultrices aliquet at quam.
+                            Your mind deserves the same care as your body. Get instant, confidential AI-powered therapy — anytime, anywhere, on your terms.
                         </p>
                         
                         <div className="pt-2">
