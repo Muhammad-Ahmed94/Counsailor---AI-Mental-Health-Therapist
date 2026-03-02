@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 import {
   MessageCircle,
   Brain,
@@ -165,9 +166,9 @@ const Services = () => {
           <p className="text-white/80 text-lg mb-8 max-w-xl mx-auto">
             No waiting lists. No judgment. Just a safe, private conversation that could change everything. Take the first step right now.
           </p>
-          <button className="btn text-lg px-10 py-4 shadow-lg hover:shadow-xl transition-shadow">
+          <Link to="/chat" className="btn text-lg px-10 py-4 shadow-lg hover:shadow-xl transition-shadow inline-block">
             Get Started — It's Free
-          </button>
+          </Link>
         </div>
       </section>
 

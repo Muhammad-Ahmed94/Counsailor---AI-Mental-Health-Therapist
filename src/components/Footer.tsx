@@ -50,7 +50,7 @@ const Footer = () => {
             <p className="text-white/60 text-sm leading-relaxed">
               Ready to take the first step towards better mental health? Start a conversation with our AI therapist today.
             </p>
-            <Link to="/" className="btn w-fit text-sm px-5 py-2.5">
+            <Link to="/chat" className="btn w-fit text-sm px-5 py-2.5">
               Talk to Counsailor
             </Link>
           </div>

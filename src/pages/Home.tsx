@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
                         </p>
                         
                         <div className="pt-2">
-                            <button className="btn text-lg px-8 py-3">Get started</button>
+                            <Link to="/chat" className="btn text-lg px-8 py-3 inline-block">Get started</Link>
                         </div>
                     </div>
 

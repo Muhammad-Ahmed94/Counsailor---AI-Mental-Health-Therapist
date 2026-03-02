@@ -43,7 +43,7 @@ const Navbar = () => {
 
         {/* Getting started + Hamburger */}
         <div className="flex items-center gap-4">
-          <button className="btn hidden md:block">Get started</button>
+          <Link to="/chat" className="btn hidden md:block">Get started</Link>
           <button
             className="md:hidden text-text-primary cursor-pointer"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -75,7 +75,7 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          <button className="btn w-fit mt-2">Get started</button>
+          <Link to="/chat" className="btn w-fit mt-2" onClick={() => setMobileOpen(false)}>Get started</Link>
         </div>
       </div>
     </header>
